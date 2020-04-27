@@ -14,6 +14,7 @@ steps:
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes'
     backendType: 'azurerm'
     backendServiceArm: 'RamyaSubscription (76fff363-1629-4001-aaa0-9d3f16bf4e64)'
+    ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-rg'
     backendAzureRmStorageAccountName: 'terraformstorage123'
     backendAzureRmContainerName: 'terraformstorage123container'
