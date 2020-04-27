@@ -16,6 +16,7 @@ steps:
     backendServiceArm: 'RamyaSubscription (76fff363-1629-4001-aaa0-9d3f16bf4e64)'
     ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-backend-rg'
+    backendAzureRmResourceGroupLocation: 'westeurope'
     backendAzureRmStorageAccountName: 'terraformstorage123'
     backendAzureRmContainerName: 'terraformstorage123container'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
