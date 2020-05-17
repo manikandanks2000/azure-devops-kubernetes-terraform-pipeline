@@ -24,8 +24,8 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'manikandanks2000'
-        repository: 'manikandanks2000/hello-world-java'
+        containerRegistry: 'functionapp'
+        repository: 'manikandanks2000/kubernetes-functions'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
